@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F56836DF29C569D4008E0E49 /* mixi_ios_trainingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56836DE29C569D4008E0E49 /* mixi_ios_trainingApp.swift */; };
+		F56836E129C569D4008E0E49 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56836E029C569D4008E0E49 /* ContentView.swift */; };
+		F56836E329C569D5008E0E49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F56836E229C569D5008E0E49 /* Assets.xcassets */; };
+		F56836E629C569D5008E0E49 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F56836E529C569D5008E0E49 /* Preview Assets.xcassets */; };
+		F56836F029C569D5008E0E49 /* mixi_ios_trainingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56836EF29C569D5008E0E49 /* mixi_ios_trainingTests.swift */; };
+		F56836FA29C569D5008E0E49 /* mixi_ios_trainingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56836F929C569D5008E0E49 /* mixi_ios_trainingUITests.swift */; };
+		F56836FC29C569D5008E0E49 /* mixi_ios_trainingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56836FB29C569D5008E0E49 /* mixi_ios_trainingUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F56836EC29C569D5008E0E49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F56836D329C569D4008E0E49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F56836DA29C569D4008E0E49;
+			remoteInfo = "mixi-ios-training";
+		};
+		F56836F629C569D5008E0E49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F56836D329C569D4008E0E49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F56836DA29C569D4008E0E49;
+			remoteInfo = "mixi-ios-training";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F56836DB29C569D4008E0E49 /* mixi-ios-training.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mixi-ios-training.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F56836DE29C569D4008E0E49 /* mixi_ios_trainingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mixi_ios_trainingApp.swift; sourceTree = "<group>"; };
+		F56836E029C569D4008E0E49 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F56836E229C569D5008E0E49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F56836E529C569D5008E0E49 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F56836EB29C569D5008E0E49 /* mixi-ios-trainingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mixi-ios-trainingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F56836EF29C569D5008E0E49 /* mixi_ios_trainingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mixi_ios_trainingTests.swift; sourceTree = "<group>"; };
+		F56836F529C569D5008E0E49 /* mixi-ios-trainingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mixi-ios-trainingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F56836F929C569D5008E0E49 /* mixi_ios_trainingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mixi_ios_trainingUITests.swift; sourceTree = "<group>"; };
+		F56836FB29C569D5008E0E49 /* mixi_ios_trainingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mixi_ios_trainingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F56836D829C569D4008E0E49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F56836E829C569D5008E0E49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F56836F229C569D5008E0E49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F56836D229C569D4008E0E49 = {
+			isa = PBXGroup;
+			children = (
+				F56836DD29C569D4008E0E49 /* mixi-ios-training */,
+				F56836EE29C569D5008E0E49 /* mixi-ios-trainingTests */,
+				F56836F829C569D5008E0E49 /* mixi-ios-trainingUITests */,
+				F56836DC29C569D4008E0E49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F56836DC29C569D4008E0E49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F56836DB29C569D4008E0E49 /* mixi-ios-training.app */,
+				F56836EB29C569D5008E0E49 /* mixi-ios-trainingTests.xctest */,
+				F56836F529C569D5008E0E49 /* mixi-ios-trainingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F56836DD29C569D4008E0E49 /* mixi-ios-training */ = {
+			isa = PBXGroup;
+			children = (
+				F56836DE29C569D4008E0E49 /* mixi_ios_trainingApp.swift */,
+				F56836E029C569D4008E0E49 /* ContentView.swift */,
+				F56836E229C569D5008E0E49 /* Assets.xcassets */,
+				F56836E429C569D5008E0E49 /* Preview Content */,
+			);
+			path = "mixi-ios-training";
+			sourceTree = "<group>";
+		};
+		F56836E429C569D5008E0E49 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F56836E529C569D5008E0E49 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F56836EE29C569D5008E0E49 /* mixi-ios-trainingTests */ = {
+			isa = PBXGroup;
+			children = (
+				F56836EF29C569D5008E0E49 /* mixi_ios_trainingTests.swift */,
+			);
+			path = "mixi-ios-trainingTests";
+			sourceTree = "<group>";
+		};
+		F56836F829C569D5008E0E49 /* mixi-ios-trainingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F56836F929C569D5008E0E49 /* mixi_ios_trainingUITests.swift */,
+				F56836FB29C569D5008E0E49 /* mixi_ios_trainingUITestsLaunchTests.swift */,
+			);
+			path = "mixi-ios-trainingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F56836DA29C569D4008E0E49 /* mixi-ios-training */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F56836FF29C569D5008E0E49 /* Build configuration list for PBXNativeTarget "mixi-ios-training" */;
+			buildPhases = (
+				F56836D729C569D4008E0E49 /* Sources */,
+				F56836D829C569D4008E0E49 /* Frameworks */,
+				F56836D929C569D4008E0E49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mixi-ios-training";
+			productName = "mixi-ios-training";
+			productReference = F56836DB29C569D4008E0E49 /* mixi-ios-training.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F56836EA29C569D5008E0E49 /* mixi-ios-trainingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F568370229C569D5008E0E49 /* Build configuration list for PBXNativeTarget "mixi-ios-trainingTests" */;
+			buildPhases = (
+				F56836E729C569D5008E0E49 /* Sources */,
+				F56836E829C569D5008E0E49 /* Frameworks */,
+				F56836E929C569D5008E0E49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F56836ED29C569D5008E0E49 /* PBXTargetDependency */,
+			);
+			name = "mixi-ios-trainingTests";
+			productName = "mixi-ios-trainingTests";
+			productReference = F56836EB29C569D5008E0E49 /* mixi-ios-trainingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F56836F429C569D5008E0E49 /* mixi-ios-trainingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F568370529C569D5008E0E49 /* Build configuration list for PBXNativeTarget "mixi-ios-trainingUITests" */;
+			buildPhases = (
+				F56836F129C569D5008E0E49 /* Sources */,
+				F56836F229C569D5008E0E49 /* Frameworks */,
+				F56836F329C569D5008E0E49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F56836F729C569D5008E0E49 /* PBXTargetDependency */,
+			);
+			name = "mixi-ios-trainingUITests";
+			productName = "mixi-ios-trainingUITests";
+			productReference = F56836F529C569D5008E0E49 /* mixi-ios-trainingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F56836D329C569D4008E0E49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F56836DA29C569D4008E0E49 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					F56836EA29C569D5008E0E49 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F56836DA29C569D4008E0E49;
+					};
+					F56836F429C569D5008E0E49 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = F56836DA29C569D4008E0E49;
+					};
+				};
+			};
+			buildConfigurationList = F56836D629C569D4008E0E49 /* Build configuration list for PBXProject "mixi-ios-training" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F56836D229C569D4008E0E49;
+			productRefGroup = F56836DC29C569D4008E0E49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F56836DA29C569D4008E0E49 /* mixi-ios-training */,
+				F56836EA29C569D5008E0E49 /* mixi-ios-trainingTests */,
+				F56836F429C569D5008E0E49 /* mixi-ios-trainingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F56836D929C569D4008E0E49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F56836E629C569D5008E0E49 /* Preview Assets.xcassets in Resources */,
+				F56836E329C569D5008E0E49 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F56836E929C569D5008E0E49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F56836F329C569D5008E0E49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F56836D729C569D4008E0E49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F56836E129C569D4008E0E49 /* ContentView.swift in Sources */,
+				F56836DF29C569D4008E0E49 /* mixi_ios_trainingApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F56836E729C569D5008E0E49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F56836F029C569D5008E0E49 /* mixi_ios_trainingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F56836F129C569D5008E0E49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F56836FA29C569D5008E0E49 /* mixi_ios_trainingUITests.swift in Sources */,
+				F56836FC29C569D5008E0E49 /* mixi_ios_trainingUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F56836ED29C569D5008E0E49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F56836DA29C569D4008E0E49 /* mixi-ios-training */;
+			targetProxy = F56836EC29C569D5008E0E49 /* PBXContainerItemProxy */;
+		};
+		F56836F729C569D5008E0E49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F56836DA29C569D4008E0E49 /* mixi-ios-training */;
+			targetProxy = F56836F629C569D5008E0E49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F56836FD29C569D5008E0E49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F56836FE29C569D5008E0E49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F568370029C569D5008E0E49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"mixi-ios-training/Preview Content\"";
+				DEVELOPMENT_TEAM = 94M9FJ82WR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ghp-okjizbZVvJfbYcR9Aff1wuNFG7FC8W44Xc8s.mixi-ios-training";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F568370129C569D5008E0E49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"mixi-ios-training/Preview Content\"";
+				DEVELOPMENT_TEAM = 94M9FJ82WR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ghp-okjizbZVvJfbYcR9Aff1wuNFG7FC8W44Xc8s.mixi-ios-training";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F568370329C569D5008E0E49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94M9FJ82WR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ghp-okjizbZVvJfbYcR9Aff1wuNFG7FC8W44Xc8s.mixi-ios-trainingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mixi-ios-training.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/mixi-ios-training";
+			};
+			name = Debug;
+		};
+		F568370429C569D5008E0E49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94M9FJ82WR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ghp-okjizbZVvJfbYcR9Aff1wuNFG7FC8W44Xc8s.mixi-ios-trainingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mixi-ios-training.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/mixi-ios-training";
+			};
+			name = Release;
+		};
+		F568370629C569D5008E0E49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94M9FJ82WR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ghp-okjizbZVvJfbYcR9Aff1wuNFG7FC8W44Xc8s.mixi-ios-trainingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "mixi-ios-training";
+			};
+			name = Debug;
+		};
+		F568370729C569D5008E0E49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94M9FJ82WR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ghp-okjizbZVvJfbYcR9Aff1wuNFG7FC8W44Xc8s.mixi-ios-trainingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "mixi-ios-training";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F56836D629C569D4008E0E49 /* Build configuration list for PBXProject "mixi-ios-training" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F56836FD29C569D5008E0E49 /* Debug */,
+				F56836FE29C569D5008E0E49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F56836FF29C569D5008E0E49 /* Build configuration list for PBXNativeTarget "mixi-ios-training" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F568370029C569D5008E0E49 /* Debug */,
+				F568370129C569D5008E0E49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F568370229C569D5008E0E49 /* Build configuration list for PBXNativeTarget "mixi-ios-trainingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F568370329C569D5008E0E49 /* Debug */,
+				F568370429C569D5008E0E49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F568370529C569D5008E0E49 /* Build configuration list for PBXNativeTarget "mixi-ios-trainingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F568370629C569D5008E0E49 /* Debug */,
+				F568370729C569D5008E0E49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F56836D329C569D4008E0E49 /* Project object */;
+}
