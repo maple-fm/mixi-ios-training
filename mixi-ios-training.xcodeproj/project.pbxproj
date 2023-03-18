@@ -14,6 +14,8 @@
 		F56836F029C569D5008E0E49 /* mixi_ios_trainingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56836EF29C569D5008E0E49 /* mixi_ios_trainingTests.swift */; };
 		F56836FA29C569D5008E0E49 /* mixi_ios_trainingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56836F929C569D5008E0E49 /* mixi_ios_trainingUITests.swift */; };
 		F56836FC29C569D5008E0E49 /* mixi_ios_trainingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56836FB29C569D5008E0E49 /* mixi_ios_trainingUITestsLaunchTests.swift */; };
+		F568370929C59786008E0E49 /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F568370829C59786008E0E49 /* Repo.swift */; };
+		F568370B29C5978C008E0E49 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F568370A29C5978C008E0E49 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		F56836F529C569D5008E0E49 /* mixi-ios-trainingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mixi-ios-trainingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F56836F929C569D5008E0E49 /* mixi_ios_trainingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mixi_ios_trainingUITests.swift; sourceTree = "<group>"; };
 		F56836FB29C569D5008E0E49 /* mixi_ios_trainingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mixi_ios_trainingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F568370829C59786008E0E49 /* Repo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repo.swift; sourceTree = "<group>"; };
+		F568370A29C5978C008E0E49 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,7 @@
 			children = (
 				F56836DE29C569D4008E0E49 /* mixi_ios_trainingApp.swift */,
 				F56836E029C569D4008E0E49 /* ContentView.swift */,
+				F568370C29C597A3008E0E49 /* Models */,
 				F56836E229C569D5008E0E49 /* Assets.xcassets */,
 				F56836E429C569D5008E0E49 /* Preview Content */,
 			);
@@ -125,6 +130,15 @@
 				F56836FB29C569D5008E0E49 /* mixi_ios_trainingUITestsLaunchTests.swift */,
 			);
 			path = "mixi-ios-trainingUITests";
+			sourceTree = "<group>";
+		};
+		F568370C29C597A3008E0E49 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F568370829C59786008E0E49 /* Repo.swift */,
+				F568370A29C5978C008E0E49 /* User.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +271,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F568370B29C5978C008E0E49 /* User.swift in Sources */,
+				F568370929C59786008E0E49 /* Repo.swift in Sources */,
 				F56836E129C569D4008E0E49 /* ContentView.swift in Sources */,
 				F56836DF29C569D4008E0E49 /* mixi_ios_trainingApp.swift in Sources */,
 			);
