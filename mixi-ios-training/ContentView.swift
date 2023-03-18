@@ -13,7 +13,6 @@ struct ContentView: View {
 
             Image("github-mark")
                 .resizable()
-                .frame(width: 44, height: 44)
 
             VStack(alignment: .leading) {
                 Text("Owner Name")
