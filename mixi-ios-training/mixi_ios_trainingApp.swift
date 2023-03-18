@@ -11,7 +11,7 @@ import SwiftUI
 struct mixi_ios_trainingApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RepoListView()
         }
     }
 }
