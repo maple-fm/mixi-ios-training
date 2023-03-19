@@ -8,14 +8,42 @@
 import XCTest
 @testable import mixi_ios_training
 
-final class mixi_ios_trainingTests: XCTestCase {
+final class RepoListViewModelTests: XCTestCase {
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    func test_onAppear_正常系() async {
+        let viewModel = await RepoListViewModel(
+            repoRepository: MockRepoRepository(
+                repos: [.mock1, .mock2]
+            )
+        )
+
+        await viewModel.onAppear()
+
+        switch await viewModel.state {
+        case let .loaded(repos):
+            XCTAssertEqual(repos, [Repo.mock1, Repo.mock2])
+        default:
+            XCTFail()
+        }
     }
 
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    func test_onAppear_異常系() async {
+        let viewModel = await RepoListViewModel(
+            repoRepository: MockRepoRepository(
+                repos: [],
+                error: DummyError()
+            )
+        )
+
+        await viewModel.onAppear()
+
+        switch await viewModel.state {
+        case let .failed(error):
+            XCTAssert(error is DummyError)
+        default:
+            XCTFail()
+        }
+
     }
 
     func testExample() throws {

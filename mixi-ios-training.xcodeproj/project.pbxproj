@@ -11,7 +11,7 @@
 		F56836E129C569D4008E0E49 /* RepoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56836E029C569D4008E0E49 /* RepoListView.swift */; };
 		F56836E329C569D5008E0E49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F56836E229C569D5008E0E49 /* Assets.xcassets */; };
 		F56836E629C569D5008E0E49 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F56836E529C569D5008E0E49 /* Preview Assets.xcassets */; };
-		F56836F029C569D5008E0E49 /* mixi_ios_trainingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56836EF29C569D5008E0E49 /* mixi_ios_trainingTests.swift */; };
+		F56836F029C569D5008E0E49 /* RepoListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56836EF29C569D5008E0E49 /* RepoListViewModelTests.swift */; };
 		F56836FA29C569D5008E0E49 /* mixi_ios_trainingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56836F929C569D5008E0E49 /* mixi_ios_trainingUITests.swift */; };
 		F56836FC29C569D5008E0E49 /* mixi_ios_trainingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56836FB29C569D5008E0E49 /* mixi_ios_trainingUITestsLaunchTests.swift */; };
 		F568370929C59786008E0E49 /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F568370829C59786008E0E49 /* Repo.swift */; };
@@ -24,6 +24,8 @@
 		F568372229C6E724008E0E49 /* RepoAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F568372129C6E724008E0E49 /* RepoAPIClient.swift */; };
 		F568372529C6E7EB008E0E49 /* RepoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F568372429C6E7EB008E0E49 /* RepoRepository.swift */; };
 		F568372829C6E855008E0E49 /* RepoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F568372729C6E855008E0E49 /* RepoListViewModel.swift */; };
+		F568372A29C6F6A8008E0E49 /* DummyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F568372929C6F6A8008E0E49 /* DummyError.swift */; };
+		F568372C29C6F6C9008E0E49 /* MockRepoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F568372B29C6F6C9008E0E49 /* MockRepoRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +52,7 @@
 		F56836E229C569D5008E0E49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F56836E529C569D5008E0E49 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F56836EB29C569D5008E0E49 /* mixi-ios-trainingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mixi-ios-trainingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F56836EF29C569D5008E0E49 /* mixi_ios_trainingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mixi_ios_trainingTests.swift; sourceTree = "<group>"; };
+		F56836EF29C569D5008E0E49 /* RepoListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoListViewModelTests.swift; sourceTree = "<group>"; };
 		F56836F529C569D5008E0E49 /* mixi-ios-trainingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mixi-ios-trainingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F56836F929C569D5008E0E49 /* mixi_ios_trainingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mixi_ios_trainingUITests.swift; sourceTree = "<group>"; };
 		F56836FB29C569D5008E0E49 /* mixi_ios_trainingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mixi_ios_trainingUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -64,6 +66,8 @@
 		F568372129C6E724008E0E49 /* RepoAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoAPIClient.swift; sourceTree = "<group>"; };
 		F568372429C6E7EB008E0E49 /* RepoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoRepository.swift; sourceTree = "<group>"; };
 		F568372729C6E855008E0E49 /* RepoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoListViewModel.swift; sourceTree = "<group>"; };
+		F568372929C6F6A8008E0E49 /* DummyError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyError.swift; sourceTree = "<group>"; };
+		F568372B29C6F6C9008E0E49 /* MockRepoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRepoRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,7 +143,7 @@
 		F56836EE29C569D5008E0E49 /* mixi-ios-trainingTests */ = {
 			isa = PBXGroup;
 			children = (
-				F56836EF29C569D5008E0E49 /* mixi_ios_trainingTests.swift */,
+				F56836EF29C569D5008E0E49 /* RepoListViewModelTests.swift */,
 			);
 			path = "mixi-ios-trainingTests";
 			sourceTree = "<group>";
@@ -177,6 +181,8 @@
 			children = (
 				F568371729C5ABBC008E0E49 /* Repo+mock.swift */,
 				F568371929C5ACFB008E0E49 /* User+mock.swift */,
+				F568372929C6F6A8008E0E49 /* DummyError.swift */,
+				F568372B29C6F6C9008E0E49 /* MockRepoRepository.swift */,
 			);
 			path = Mocks;
 			sourceTree = "<group>";
@@ -348,10 +354,12 @@
 				F568370B29C5978C008E0E49 /* User.swift in Sources */,
 				F568370929C59786008E0E49 /* Repo.swift in Sources */,
 				F568371F29C6E10A008E0E49 /* Stateful.swift in Sources */,
+				F568372C29C6F6C9008E0E49 /* MockRepoRepository.swift in Sources */,
 				F568372529C6E7EB008E0E49 /* RepoRepository.swift in Sources */,
 				F568371429C59F6D008E0E49 /* RepoDetailView.swift in Sources */,
 				F56836E129C569D4008E0E49 /* RepoListView.swift in Sources */,
 				F568372829C6E855008E0E49 /* RepoListViewModel.swift in Sources */,
+				F568372A29C6F6A8008E0E49 /* DummyError.swift in Sources */,
 				F568371A29C5ACFB008E0E49 /* User+mock.swift in Sources */,
 				F56836DF29C569D4008E0E49 /* mixi_ios_trainingApp.swift in Sources */,
 				F568372229C6E724008E0E49 /* RepoAPIClient.swift in Sources */,
@@ -362,7 +370,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F56836F029C569D5008E0E49 /* mixi_ios_trainingTests.swift in Sources */,
+				F56836F029C569D5008E0E49 /* RepoListViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
