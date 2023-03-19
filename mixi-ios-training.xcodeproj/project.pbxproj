@@ -20,6 +20,7 @@
 		F568371429C59F6D008E0E49 /* RepoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F568371329C59F6D008E0E49 /* RepoDetailView.swift */; };
 		F568371829C5ABBC008E0E49 /* Repo+mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F568371729C5ABBC008E0E49 /* Repo+mock.swift */; };
 		F568371A29C5ACFB008E0E49 /* User+mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F568371929C5ACFB008E0E49 /* User+mock.swift */; };
+		F568371F29C6E10A008E0E49 /* Stateful.swift in Sources */ = {isa = PBXBuildFile; fileRef = F568371E29C6E10A008E0E49 /* Stateful.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		F568371329C59F6D008E0E49 /* RepoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoDetailView.swift; sourceTree = "<group>"; };
 		F568371729C5ABBC008E0E49 /* Repo+mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Repo+mock.swift"; sourceTree = "<group>"; };
 		F568371929C5ACFB008E0E49 /* User+mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+mock.swift"; sourceTree = "<group>"; };
+		F568371E29C6E10A008E0E49 /* Stateful.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stateful.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 		F56836DD29C569D4008E0E49 /* mixi-ios-training */ = {
 			isa = PBXGroup;
 			children = (
+				F568371D29C6E0EF008E0E49 /* Utilities */,
 				F56836DE29C569D4008E0E49 /* mixi_ios_trainingApp.swift */,
 				F568371529C59F73008E0E49 /* Views */,
 				F568370C29C597A3008E0E49 /* Models */,
@@ -167,6 +170,14 @@
 				F568371929C5ACFB008E0E49 /* User+mock.swift */,
 			);
 			path = Mocks;
+			sourceTree = "<group>";
+		};
+		F568371D29C6E0EF008E0E49 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F568371E29C6E10A008E0E49 /* Stateful.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,6 +314,7 @@
 				F568371829C5ABBC008E0E49 /* Repo+mock.swift in Sources */,
 				F568370B29C5978C008E0E49 /* User.swift in Sources */,
 				F568370929C59786008E0E49 /* Repo.swift in Sources */,
+				F568371F29C6E10A008E0E49 /* Stateful.swift in Sources */,
 				F568371429C59F6D008E0E49 /* RepoDetailView.swift in Sources */,
 				F56836E129C569D4008E0E49 /* RepoListView.swift in Sources */,
 				F568371A29C5ACFB008E0E49 /* User+mock.swift in Sources */,

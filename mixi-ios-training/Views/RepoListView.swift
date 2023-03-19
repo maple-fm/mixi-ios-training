@@ -7,9 +7,10 @@
 
 import SwiftUI
 
+
 @MainActor
 class RepoStore: ObservableObject {
-    @Published private(set) var repos = [Repo]()
+    @Published private(set) var state: Stateful<[Repo]> = .idle
 
     func loadRepos() async {
 
@@ -19,13 +20,28 @@ class RepoStore: ObservableObject {
         urlRequest.allHTTPHeaderFields = [
             "Accept": "application/vnd.github.v3+json"
         ]
+        state = .loading
 
-        let (data, _) = try! await URLSession.shared.data(for: urlRequest)
-        let decoder = JSONDecoder()
-        decoder.keyDecodingStrategy = .convertFromSnakeCase
-        let value = try! decoder.decode([Repo].self, from: data)
+        do {
+            let (data, response) = try await URLSession.shared.data(for: urlRequest)
 
-        repos = value
+            guard
+                let response = response as? HTTPURLResponse,
+                response.statusCode == 200
+            else {
+                throw URLError(.badServerResponse)
+            }
+
+            let decoder = JSONDecoder()
+            decoder.keyDecodingStrategy = .convertFromSnakeCase
+            let value = try! decoder.decode([Repo].self, from: data)
+
+            state = .loaded(value)
+
+        } catch {
+            state = .failed(error)
+        }
+
 
     }
 }
@@ -36,20 +52,49 @@ struct RepoListView: View {
 
     var body: some View {
         NavigationView {
-            if repoStore.repos.isEmpty {
-                ProgressView("Loading ...")
+            Group {
+                switch repoStore.state {
+                case .idle, .loading:
+                    ProgressView("loading ...")
+                    
+                case .loaded([]):
+                    Text("No repositories")
+                        .fontWeight(.bold)
 
-            } else {
+                case let .loaded(repos):
+                    List(repos) { repo in
 
-                List(repoStore.repos) { repo in
+                        NavigationLink(
+                            destination: RepoDetailView(repo: repo)) {
+                                RepoRow(repo: repo)
+                            }
+                    }
 
-                    NavigationLink(
-                        destination: RepoDetailView(repo: repo)) {
-                        RepoRow(repo: repo)
+                case .failed:
+                    VStack {
+                        Group {
+                            Image("github-mark")
+                            Text("Failed to load repositories")
+                                .padding(.top, 4)
+                        }
+                        .foregroundColor(.black)
+                        .opacity(0.4)
+
+                        Button(action: {
+                            Task {
+                                await repoStore.loadRepos()
+                            }
+                        }) {
+                            Text("Retry")
+                                .fontWeight(.bold)
+                        }
+                        .padding(.top, 8)
                     }
                 }
-                .navigationTitle("Repositories")
             }
+            .navigationTitle("Repositories")
+
+
         }
         .task {
             await repoStore.loadRepos()
