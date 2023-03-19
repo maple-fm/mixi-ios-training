@@ -29,11 +29,11 @@ struct RepoListView: View {
             }
         }
         .onAppear {
-            loadRepo()
+            loadRepos()
         }
     }
 
-    private func loadRepo() {
+    private func loadRepos() {
         // 1秒後にモックデータを読み込む
         DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
             mockRepos = [
