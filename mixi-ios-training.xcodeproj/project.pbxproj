@@ -21,6 +21,9 @@
 		F568371829C5ABBC008E0E49 /* Repo+mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F568371729C5ABBC008E0E49 /* Repo+mock.swift */; };
 		F568371A29C5ACFB008E0E49 /* User+mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F568371929C5ACFB008E0E49 /* User+mock.swift */; };
 		F568371F29C6E10A008E0E49 /* Stateful.swift in Sources */ = {isa = PBXBuildFile; fileRef = F568371E29C6E10A008E0E49 /* Stateful.swift */; };
+		F568372229C6E724008E0E49 /* RepoAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F568372129C6E724008E0E49 /* RepoAPIClient.swift */; };
+		F568372529C6E7EB008E0E49 /* RepoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F568372429C6E7EB008E0E49 /* RepoRepository.swift */; };
+		F568372829C6E855008E0E49 /* RepoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F568372729C6E855008E0E49 /* RepoListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,9 @@
 		F568371729C5ABBC008E0E49 /* Repo+mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Repo+mock.swift"; sourceTree = "<group>"; };
 		F568371929C5ACFB008E0E49 /* User+mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+mock.swift"; sourceTree = "<group>"; };
 		F568371E29C6E10A008E0E49 /* Stateful.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stateful.swift; sourceTree = "<group>"; };
+		F568372129C6E724008E0E49 /* RepoAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoAPIClient.swift; sourceTree = "<group>"; };
+		F568372429C6E7EB008E0E49 /* RepoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoRepository.swift; sourceTree = "<group>"; };
+		F568372729C6E855008E0E49 /* RepoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,8 +114,11 @@
 		F56836DD29C569D4008E0E49 /* mixi-ios-training */ = {
 			isa = PBXGroup;
 			children = (
-				F568371D29C6E0EF008E0E49 /* Utilities */,
 				F56836DE29C569D4008E0E49 /* mixi_ios_trainingApp.swift */,
+				F568372629C6E844008E0E49 /* ViewModels */,
+				F568372329C6E7DA008E0E49 /* Repositories */,
+				F568371D29C6E0EF008E0E49 /* Utilities */,
+				F568372029C6E6F5008E0E49 /* APIClients */,
 				F568371529C59F73008E0E49 /* Views */,
 				F568370C29C597A3008E0E49 /* Models */,
 				F56836E229C569D5008E0E49 /* Assets.xcassets */,
@@ -178,6 +187,30 @@
 				F568371E29C6E10A008E0E49 /* Stateful.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		F568372029C6E6F5008E0E49 /* APIClients */ = {
+			isa = PBXGroup;
+			children = (
+				F568372129C6E724008E0E49 /* RepoAPIClient.swift */,
+			);
+			path = APIClients;
+			sourceTree = "<group>";
+		};
+		F568372329C6E7DA008E0E49 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				F568372429C6E7EB008E0E49 /* RepoRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		F568372629C6E844008E0E49 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F568372729C6E855008E0E49 /* RepoListViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -315,10 +348,13 @@
 				F568370B29C5978C008E0E49 /* User.swift in Sources */,
 				F568370929C59786008E0E49 /* Repo.swift in Sources */,
 				F568371F29C6E10A008E0E49 /* Stateful.swift in Sources */,
+				F568372529C6E7EB008E0E49 /* RepoRepository.swift in Sources */,
 				F568371429C59F6D008E0E49 /* RepoDetailView.swift in Sources */,
 				F56836E129C569D4008E0E49 /* RepoListView.swift in Sources */,
+				F568372829C6E855008E0E49 /* RepoListViewModel.swift in Sources */,
 				F568371A29C5ACFB008E0E49 /* User+mock.swift in Sources */,
 				F56836DF29C569D4008E0E49 /* mixi_ios_trainingApp.swift in Sources */,
+				F568372229C6E724008E0E49 /* RepoAPIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
